@@ -1,7 +1,9 @@
 package org.sebsy.demo.escaperooms.bll;
 
-public interface TreasureService {
+import org.springframework.stereotype.Component;
 
+@Component
+public interface TreasureService {
     public String ouvrir();
 
 }
